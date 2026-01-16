@@ -41,7 +41,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: activeto  # exact Pages project name
+          projectName: activeto-web  # exact Pages project name
           directory: ./dist # folder with built files
 
 
