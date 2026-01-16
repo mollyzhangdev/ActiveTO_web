@@ -41,8 +41,8 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: your-project-name  # exact Pages project name
-          directory: ./dist/your-app-name # folder with built files
+          projectName: activeto  # exact Pages project name
+          directory: ./dist # folder with built files
 
 
       # - name: Connect to server and copy source code
