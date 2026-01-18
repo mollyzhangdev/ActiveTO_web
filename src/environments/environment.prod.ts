@@ -1,7 +1,7 @@
 export const environment = {
     production: true,
     googleMapKey: process.env['GOOGLE_MAP_KEY'],
-    basePath: process.env['API_BASE_PATH'],
+    basePath: 'api.activeto.mollyzhang.dev',
     facilityPath: 'facilities',
     typePath: 'types',
     activityPath: 'activities',
