@@ -122,7 +122,7 @@ export class Effects {
             switchMap(({ categoryId }) => {
                 id = categoryId;
                 const params = this.params.set('size', 10000);
-                return this.helper.fetchResponse([this.BASE_PATH, this.CATEGORY_PATH, '/', categoryId.toString(), '/', this.TYPE_PATH], params);
+                return this.helper.fetchResponse([this.BASE_PATH, this.CATEGORY_PATH, '/', categoryId.toString(), this.TYPE_PATH], params);
             }),
             map((json) => {
                 const types = json['content'].map(type => {
